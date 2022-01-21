@@ -1,0 +1,10 @@
+{
+    "compilerOptions": { // typescript -> js | nodejs, import, export 평범하게 사용
+        "module": "commonjs",
+        "target": "ES2015", // 어떤 버전의 js
+        "sourceMap": true,
+        "outDir": "dist"
+    }, // 어떤 파일들이 컴파일 과정에 포함되는지
+    "include": ["src/**/*"], // 컴파일 과정에서 포함할 파일의 배열
+    "exclude": ["node_modules"] // default로 제외하는 것이 좋음
+}
